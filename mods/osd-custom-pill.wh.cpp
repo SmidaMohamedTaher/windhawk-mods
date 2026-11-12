@@ -1246,7 +1246,7 @@ static void BeginShow() {
     g_dst.x = (mi.rcMonitor.left + mi.rcMonitor.right) / 2 - g_cw / 2;
     g_dst.y = mi.rcMonitor.bottom - (LONG)(a_bottom * g_s) - (LONG)g_H - g_padY;
     g_baseY = g_dst.y;
-    g_startOff = (float)(mi.rcMonitor.bottom - g_baseY) + 4;
+    g_startOff = 0.0f ;
 
     sp_y.x = g_startOff; sp_y.v = 0; sp_y.t = 0;
     sp_p.x = 0; sp_p.v = 0; sp_p.t = 0;
